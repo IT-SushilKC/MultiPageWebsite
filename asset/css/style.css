@@ -330,6 +330,11 @@ About
 .hero-wrap.hero-wrap-2 .slider-text {
     height: 500px !important;
 }
+.hero-wrap img{
+    height: 500px!important;
+    width: 100%;
+    position: relative;
+}
 
 /*****************************
 Courses
