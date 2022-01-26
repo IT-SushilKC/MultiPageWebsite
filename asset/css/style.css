@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*********************************
+Custom Property
+*********************************/
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: #a4c639;
+}
+
+/*********************************
+Navbar
+*********************************/
+.brand a {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    padding: none !important;
+}
+
+.nav-link {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px !important;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #a4c639 !important;
+}
+
+.cap-color, .active {
+    color: #a4c639 !important;
+}
+
+/*********************************
+Hero
+*********************************/
+.hero .hero-img img {
+    height: 100vh !important;
+    width: 100vw !important;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    display: table;
+    position: absolute;
+    width: 70%;
+    top: 35%;
+    transform: translateX(-50%, -50%);
+}
+
+.carousel-caption h1 {
+    font-size: 55px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.carousel-caption a {
+    color: #fff;
+    border: 1px solid #a4c639;
+    text-decoration: none;
+    background: transparent;
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 10px 50px;
+
+    margin-top: 20px;
+
+}
+
+.bg-color {
+    background-color: #010e3a !important;
+}
+
+@media(max-width: 1080px) {
+    .nav-link {
+        align-items: center !important;
+        text-align: center !important;
+    }
+}
+
+@media(max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 30px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+
+    nav {
+        background-color: #010e3a !important;
+    }
+
+    .nav-link {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .carousel-caption a {
+        padding: 8px 30px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+}
+
+/*********************************
+About
+*********************************/
+.about {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.about .left-img img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.about .more-info-content {
+    background: #f7f7f7;
+    padding-left: 18px;
+}
+
+.about .right-content {
+    padding: 45px 45px 45px 45px;
+}
+
+.about .right-content span {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #666;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/*********************************
+Courses
+*********************************/
+.section-heading {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.section-heading h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1e1e1e;
+}
+
+.section-heading em {
+    font-style: normal;
+    color: #a4c639;
+}
+
+.section-heading span {
+    display: block;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+.courses {
+    margin-top: 50px;
+}
+
+.course-item img {
+    width: 100%;
+    height: 250px !important;
+    overflow: hidden;
+}
+
+.course-item .down-content {
+    background: #f7f7f7;
+    padding: 30px;
+}
+
+.course-item .down-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .25px;
+    margin-top: 10px !important;
+    margin-bottom: 15px;
+}
+
+.course-item .down-content p {
+    margin-bottom: 20px;
+}
+
+/*********************************
+Contact
+*********************************/
+.contact {
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+.contact .contact-form {
+    background-color: #a4c639;
+    padding: 60px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact .contact-form input {
+    border-radius: 20px;
+    height: 4opx;
+    line-height: 40px;
+    display: inline-block;
+    padding: 0px 15px;
+    color: #6a6a6a;
+    font-size: 13px;
+    text-transform: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.contact .contact-form textarea {
+    border-radius: 30px;
+    height: 120px;
+    min-height: 12px;
+    max-height: 200px;
+    display: inline-block;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 35px;
+}
+
+.border-button {
+    background-color: #fff;
+    color: #a4c639;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 600;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all .3s;
+    outline: none;
+    cursor: pointer;
+    box-shadow: none;
+    text-shadow: none;
+    padding: 10px 40px;
+}
+
+.border-button:hover {
+    background-color: #a4c639;
+    color: #fff;
+}
+
+/***************************
+Footer
+****************************/
+.footer {
+    background-color: #010e3a;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer .copyright {
+    text-align: center;
+}
+
+.footer .credits {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+/************************
+About
+*************************/
+.hero-wrap {
+    width: 100%;
+    height: 850px;
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+@media(max-width: 990px) {
+    .hero-wrap {
+        background-position: top center !important;
+    }
+}
+
+@media(max-width: 768px) {
+
+    .about-section .left-img img {
+        margin-top: 4rem !important;
+    }
+
+}
+
+.hero-wrap.hero-wrap-2 {
+    height: 500px !important;
+    position: relative !important;
+    width: 100%;
+}
+
+.hero-wrap.hero-wrap-2 .slider-text {
+    height: 500px !important;
+}
+
+/*****************************
+Courses
+******************************/
+.services-2{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.services-2 .icon{
+    width: 70px!important;
+    height: 60px;
+    border-radius: 50%;
+    background: #010e3a;
+    box-shadow: 0px 10px 30px -4px rgba(0,0,0,0.14);
+}
+.services-2 .icon span{
+    font-size: 10px;
+    margin-right: 1rem;
+    color: #fff;
+}
+.img-video img{
+    height: 90vh;
+}
+/*****************************
+Contact US
+******************************/
+
+.contact-info p a{
+    color: #010e3a;
+}
+.contact-info p span{
+    display: block;
+    
+    font-style: 18px;
+    font-weight: 600;
+    color: #000;
+
+}
+.contact-info .icon span{
+    font-style: 20px;
+}
+
+
+
+
+
+
+
+
+
+
